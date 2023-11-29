@@ -6,7 +6,8 @@ CREATE TABLE peliculas(
     nombre VARCHAR(255) NOT NULL,
     descripcion text NOT NULL,
     duracion VARCHAR(255) NOT NULL,
-	clasificacion VARCHAR(255) NOT NULL
+	clasificacion VARCHAR(255),
+    foto  VARCHAR(255) 
 );
 
 
